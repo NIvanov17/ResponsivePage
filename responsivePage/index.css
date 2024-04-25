@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font: 16px/1.5 "PT Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0;
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.icons li {
+    display: block;
+    margin: 1em;
+}
+
+.icons li button {
+    padding: 1em 2em;
+    background-color: #FFD143;
+    color: black;
+    border: 0px;
+    border-radius: 9px;
+}
+
+.logo a {
+    display: block;
+    width: 100px;
+    height: 90px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url(delmonte.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: darkgreen;
+    padding: 2em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-right: 3em;
+}
+
+.banner {
+    background: url(64d6f5ed-0e8d-4dd4-b7a3-c28cbd6b052e.jpg);
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+.desc {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Dark overlay for text contrast */
+    display: inline-block;
+    padding: 20px;
+    max-width: 500px;
+    margin: 7em 9em;
+}
+
+.desc button {
+    padding: 0.9em 1.8em;
+    background-color: #FFD143;
+    color: black;
+    border: 0px;
+    border-radius: 9px;
+}
+
+.desc h1 {
+    padding-bottom: 0.8em;
+}
+
+.desc p {
+    font-size: 1.4em;
+    line-height: 1.1em;
+    padding-bottom: 1em;
+}
+
+.sing-up {
+    display: flex;
+    justify-content: center;
+    background-color: darkgreen;
+    padding: 2em;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+.sing-up button {
+    padding: 0.9em 1.8em;
+    background-color: #FFD143;
+    color: black;
+    border: 0px;
+    border-radius: 6px;
+}
+
+.info h2 {
+    text-align: center;
+    padding-bottom: 1em;
+    color: white;
+}
+
+.info p {
+    text-align: center;
+    padding-bottom: 1em;
+    color: white;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.products h2 {
+    text-align: center;
+    color: black;
+}
+
+.products h3 {
+    text-align: center;
+    color: black;
+}
+
+.products p {
+    text-align: center;
+    color: black;
+}
+.products-list ul{
+    display: flex;
+    gap: 1em;
+}
+
+.products-list ul li{
+    display: block;
+}
+
+.products-list ul li:nth-child(1) a{
+    display: block;
+    width: 200px;
+    height: 190px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url(Refreshers.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2em;
+}
+
+.products-list ul li:nth-child(2) a{
+    display: block;
+    width: 200px;
+    height: 190px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url(peachcan\ copy.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2em 0.5em;
+}
+
+.products-list ul li:nth-child(3) a{
+    display: block;
+    width: 200px;
+    height: 190px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url(greenbeancan.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2em;
+}
+
+.locator{
+    display: flex;
+    justify-content: center;
+    background-color: darkgreen;
+    padding: 2em;
+}
+
+.locator button {
+    padding: 0.9em 1.8em;
+    background-color: #FFD143;
+    color: black;
+    border: 0px;
+    border-radius: 6px;
+}
+
+.cards-list{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    flex: 0 1 30%;
+    background-color: #E6E6E6;
+    margin: 2em 1em;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card:nth-child(1){
+    margin-left: 2em;
+}
+
+.card h2{
+    text-align: center;
+    padding-top: 1.5em;
+}
+.card p{
+    text-align: center;
+    padding: 1em;
+}
+
+.card button {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.3em 2em;
+    background-color: #FFD143;
+    color: black;
+    border: 0px;
+    border-radius: 6px;
+    margin-bottom: 2em;
+  }
+
+  .inspired{
+    background-color: darkgreen;
+    padding: 2em;
+  }
+
+.inspired h2{
+text-align: center;
+}
+
+.inspired p{
+    text-align: center;
+}
+
+.inspired .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspired .icons li{
+    color: white;
+}
+
+footer{
+    background-color: darkgreen;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+}
