@@ -3,10 +3,10 @@ Dekstop view:
 ![image](https://github.com/NIvanov17/ResponsivePage/assets/121643896/54c8f92e-fb3d-4902-91cd-1ace2f6b5959)
 ![image](https://github.com/NIvanov17/ResponsivePage/assets/121643896/e1c4a687-f28f-496d-9cba-59cd3925b671)
 ![image](https://github.com/NIvanov17/ResponsivePage/assets/121643896/0ca4ecd0-f47f-4b90-a5c8-4b781976b045)
-![image](https://github.com/NIvanov17/ResponsivePage/assets/121643896/f44f5b58-9246-4090-8772-0d74cee391f6)
 
 Mobile view:
 
+![image](https://github.com/NIvanov17/ResponsivePage/assets/121643896/f44f5b58-9246-4090-8772-0d74cee391f6)
 ![image](https://github.com/NIvanov17/ResponsivePage/assets/121643896/2cb39e6b-10fb-4c5b-bf43-12bb99fd4a8a)
 ![image](https://github.com/NIvanov17/ResponsivePage/assets/121643896/0b973842-6f2a-4d26-96d1-df08abd2adea)
 ![image](https://github.com/NIvanov17/ResponsivePage/assets/121643896/ff4c21e0-e56b-404b-898b-317542ee7c1b)
