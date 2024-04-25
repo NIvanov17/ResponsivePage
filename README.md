@@ -6,6 +6,7 @@ Dekstop view:
 ![image](https://github.com/NIvanov17/ResponsivePage/assets/121643896/f44f5b58-9246-4090-8772-0d74cee391f6)
 
 Mobile view:
+
 ![image](https://github.com/NIvanov17/ResponsivePage/assets/121643896/2cb39e6b-10fb-4c5b-bf43-12bb99fd4a8a)
 ![image](https://github.com/NIvanov17/ResponsivePage/assets/121643896/0b973842-6f2a-4d26-96d1-df08abd2adea)
 ![image](https://github.com/NIvanov17/ResponsivePage/assets/121643896/ff4c21e0-e56b-404b-898b-317542ee7c1b)
